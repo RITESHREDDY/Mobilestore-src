@@ -1,0 +1,97 @@
+{
+  "schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "phonebot2",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "hi"
+    },
+    
+    {
+      "name": "show"
+    },
+   
+    {
+      "name": "10000"
+    }
+  ],
+  "entities": [
+    
+    {
+      "name": "Phones"
+    },
+    {
+      "name": "Xioami Redmi Note 5"
+    },
+    {
+      "name": "Redmi 5"
+    }
+    {
+      "name": "Lenovo K8 Plus"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "hello",
+      "intent": "hi",
+      "entities": []
+    },
+    {
+      "text": "show me a good phone",
+      "intent": "show",
+      "entities": [
+        {
+          "entity": "Phones",
+          "startPos": 16,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "Xioami Redmi Note 5",
+      "intent": "",
+      "entities": [
+{
+"entity": "Xioami Redmi Note 5",
+          "startPos":0,
+          "endPos": 17
+}
+]
+    },
+    {
+      "text": "Redmi 5",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 7
+}
+]
+    },
+{
+      "text": "Lenovo K8 Plus",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 14
+}
+]
+    },
+{
+      "text": "Under 10000",
+      "intent": "Under",
+      "entities": []
+    },
+ 
+
+ 

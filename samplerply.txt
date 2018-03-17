@@ -1,0 +1,26 @@
+var intents = new builder.IntentDialog({ recognizers: [recognizer] })
+.matches('hi', (session) => {
+    session.send('hello, how can i help you?');
+})
+.matches('Show', (session) => {
+    session.send('Any specific brand or budget');
+})
+.matches('10000', (session) => {
+    session.send('some good phones below 10000 are Redmi Note 5, Redmi 5, Lenovo K8 Plus.\n\nPlease select the phone u would like more information about or u cud check https://www.digit.in/top-products/top-10-phones-under-rs-10-000-19.html');
+})
+var entities = new builder.EntityDialog({recognizers: [recognizer]})
+.matches('Redmi 5', (session) => {
+    session.send('The phone comes with a 5.70-inch touchscreen display with a resolution of 720 pixels by 1440 pixels at a PPI of 282 pixels per inch. Redmi 5 price in India starts from Rs. 8,999.');
+})
+.matches('Xiaomi Redmi Note 5', (session) => {
+    session.send('Xiaomi’s Redmi Note 5 is now the best smartphone to buy under Rs 10,000. In terms of performance, the device outperforms almost all devices in its price range. It also has very reliable battery life, comes with an all-metal construction, along with a fingerprint sensor at the back. Overall, it offers one of the best performance and battery life among mobile phones below Rs 10,000 ');
+})
+.matches('Lenovo K8 Plus', (session) => {
+    session.send('The Lenovo K8 Plus is powered by 2.5GHz octa-core MediaTek Helio P25 processor and it comes with 3GB of RAM. The phone packs 32GB of internal storage that can be expanded up to 128GB via a microSD card. As far as the cameras are concerned, the Lenovo K8 Plus packs a 13-megapixel primary camera on the rear and a 8-megapixel front shooter for selfies.');
+})
+.matches('Phones', (session) => {
+    session.send('Any specific brand or budget');
+})
+.matches('', (session) => {
+    session.send('No match! Try asking questions like show me a good phone!');
+})
