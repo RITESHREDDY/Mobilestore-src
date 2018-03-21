@@ -1,0 +1,1356 @@
+{
+  "schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "phonebot2",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "hi"
+    },
+    
+    {
+      "name": "show"
+    },
+   
+    {
+      "name": "10000"
+    },
+{
+      "name": "20000"
+    },
+{
+      "name": "price"
+    }
+
+  ],
+  "entities": [
+    
+    {
+      "name": "Phones"
+    },
+    {
+      "name": "Xioami Redmi Note 5"
+    },
+    {
+      "name": "Redmi 5"
+    },
+    {
+      "name": "Lenovo K8 Plus"
+    },
+{
+      "name": "Samsung Galaxy J7 Pro"
+    },
+{
+      "name": "Xiaomi Mi A1"
+    },
+
+{
+      "name": "Samsung Galaxy S9"
+    },
+{
+      "name": "Samsung Galaxy S9+"
+    },
+{
+      "name": "blackberry keyone"
+    },
+{
+      "name": "apple iphone 8 plus"
+    },
+{
+      "name": "apple iphone x"
+    },
+{
+      "name": "samsung galaxy note 8"
+    },
+{
+      "name": "best"
+    },
+
+{
+      "name": "apple iphone 8"
+    },
+{
+      "name": "apple iphone 8+"
+    },
+{
+      "name": "apple iphone 7"
+    },
+{
+      "name": "apple iphone 7+"
+    },
+{
+      "name": "samsung galaxy s9"
+    },
+{
+      "name": "samsung galaxy s9+ "
+    },
+{
+      "name": "samsung note 8"
+    },
+{
+      "name": "samsung galaxy j7 pro"
+    },
+{
+      "name": "samasung galaxy a8+"
+    },
+{
+      "name": "samasung galaxy on nxt"
+    },
+{
+      "name": "redmi 5a"
+    },
+{
+      "name": "mi mix 2"
+    },
+{
+      "name": "mi max 2"
+    },
+{
+      "name": "mi a1"
+    },
+{
+      "name": "moto g5s"
+    },
+{
+      "name": "moto z2 force"
+    },
+{
+      "name": "moto x4"
+    },
+{
+      "name": "moto e4"
+    },
+{
+      "name": "moto z2 play"
+    },
+{
+      "name": "lenovo k8 plus"
+    },
+{
+      "name": "lenovo k8 note"
+    },
+{
+      "name": "one plus 5"
+    },
+{
+      "name": "one plus 5t"
+    },
+{
+      "name": "one plus 3"
+    },
+{
+      "name": "one plus 3t"
+    },
+{
+      "name": "honor 9 lite"
+    },
+
+{
+      "name": "honor 9i"
+    },
+{
+      "name": "honor 8 pro"
+    },
+{
+      "name": "honor view 10"
+    },
+{
+      "name": "honor 6x"
+    },
+{
+      "name": "lg g6"
+    },
+{
+      "name": "lg v20"
+    },
+{
+      "name": "lg v30+"
+    },
+{
+      "name": "nokia 8"
+    },
+{
+      "name": "nokia 6"
+    },
+{
+      "name": "htc u11"
+    },
+{
+      "name": "blackberry keyone"
+    },
+{
+      "name": "sony xperia xz1"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "hello",
+      "intent": "hi",
+      "entities": []
+    },
+    {
+      "text": "show me a good phone",
+      "intent": "show",
+      "entities": [
+        {
+          "entity": "Phones",
+          "startPos": 16,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "Xioami Redmi Note 5",
+      "intent": "",
+      "entities": [
+{
+"entity": "Xioami Redmi Note 5",
+          "startPos":0,
+          "endPos": 17
+}
+]
+    },
+    {
+      "text": "Redmi 5",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 7
+}
+]
+    },
+{
+      "text": "Lenovo K8 Plus",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 11
+}
+]
+    },
+{
+      "text": "Under 10000",
+      "intent": "Under",
+      "entities": []
+    },
+ {
+      "text": "Xioami Redmi Note 5 pro",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 19
+}
+]
+    },{
+      "text": "Samsung Galaxy J7 Pro",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 19
+}
+]
+    },{
+      "text": "Xiaomi Mi A1?",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 11
+}
+]
+    },{
+      "text": "Honor 9i",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 7
+}
+]
+    },{
+      "text": "Samsung Galaxy S9",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 14
+}
+]
+    },
+{
+      "text": "Samsung Galaxy S9+?",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "Samsung Galaxy Note 8",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 18
+}
+]
+    },
+{
+      "text": "BlackBerry Keyone",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 13
+}
+]
+    },
+{
+      "text": "Apple Iphone X",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 13
+}
+]
+    },
+{
+      "text": "Apple iPhone 8 Plus",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 17
+}
+]
+    },
+ 
+{
+      "text": "Sony Xperia XZ1",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "Best phones to buy",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 5,
+          "endPos": 11
+}
+]
+    },
+{
+      "text": " price of Apple iPhone 8 Plus",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 7
+}
+]
+    },
+    {
+      "text": "price of Xioami Redmi Note 5",
+      "intent": "price ",
+      "entities": [
+{
+"entity": "Xioami Redmi Note 5",
+          "startPos":0,
+          "endPos": 17
+}
+]
+    },
+    {
+      "text": "price of Redmi 5",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 7
+}
+]
+    },
+{
+      "text": "price of Lenovo K8 Plus",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 11
+}
+]
+    },
+
+ {
+      "text": "price of Xioami Redmi Note 5 pro",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 19
+}
+]
+    },{
+      "text": "price of Samsung Galaxy J7 Pro",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 19
+}
+]
+    },{
+      "text": "price of Xiaomi Mi A1?",
+      "intent": "price ",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 11
+}
+]
+    },{
+      "text": "price of Honor 9i",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 7
+}
+]
+    },{
+      "text": "price of Samsung Galaxy S9",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 14
+}
+]
+    },
+{
+      "text": "price of Samsung Galaxy S9+?",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of Samsung Galaxy Note 8",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 18
+}
+]
+    },
+{
+      "text": "price of BlackBerry Keyone",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 13
+}
+]
+    },
+{
+      "text": "price of Apple Iphone X",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 13
+}
+]
+    },{
+      "text": "price of Apple iPhone 8 Plus",
+      "intent": "price ",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 17
+}
+]
+    },
+ 
+{
+      "text": "price of Sony Xperia XZ1",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+ 
+{
+      "text": "price of mi mix 2",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of mi max 2 ",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of mi a1",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of apple iphone 6s",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of apple iphone se",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of apple iphone 7",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of apple iphone 7+",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of Samsung galaxy s8",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of Samsung galaxy s8+",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of Samsung galaxy note8",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of Samsung galaxy a8+",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of Samsung galaxy nxt",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of moto g5",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of motoz2",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of moto x4",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of moto e4",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of moto z2 play",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of lenovo k8 plus",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of lenovo k8 note",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of one plus 5",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of one plus 5t",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of one plus 3",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of one plus 3t",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of honor 9 lite",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of honor 9i",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of honor 8 pro",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of honor view 10",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of honor 6x",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of lg v20",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of lg v30+",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of lg g6",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of nokia 8",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of nokia 6",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of htc u11",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of blackberry keyone",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of sony xz1",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of google pixel",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+
+{
+      "text": "price of google pixel xl",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of google pixel 2",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "price of google pixel 2 xl",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "samsung ",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "xiaomi ",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "mi ",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "apple",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "motorola",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "lenovo",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "oneplus",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "honor",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "lg",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "nokia",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "nokia6",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "htc",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "blackberry",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "sony ",
+      "intent": "price",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": "Under 10000",
+      "intent": "Under",
+      "entities": []
+    },
+ {
+      "text": "Honor View 10?",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 14
+}
+]
+    },
+{
+      "text": “LG G6?”,
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 6
+},
+{
+      "text": "Honor View 10?",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 14
+}
+]
+    },
+{
+      "text": “LG G6?”,
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 6
+}
+]
+    },
+{
+      "text": “Samsung Galaxy A8+?”,
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 19
+}
+]
+    },
+{
+      "text": “LG V20?”,
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 7
+}
+]
+    },
+{
+      "text": “Moto X4?”,
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 8
+}
+]
+    },
+{
+      "text": “Moto Z2 Play?”,
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 13
+}
+]
+    },
+{
+      "text": “Nokia 8?”,
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 8
+}
+]
+    },
+{
+      "text": "Honor View 10?",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 13
+}
+]
+    },
+{
+      "text": "best phones under 30000?",
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 24
+}
+]
+    },
+{
+      "text": “OnePlus 5T?”,
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 11
+}
+]
+    },
+{
+      "text": “Mi Mix 2?”,
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 9
+}
+]
+    },
+{
+      "text": “Moto Z2 Force?”,
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 14
+}
+]
+    },
+{
+      "text": “Under 40000?”,
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 12
+}
+]
+    },
+{
+      "text": “LG V30 Plus?”,
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 12
+}
+]
+    },
+{
+      "text": “Google Pixel 2?”,
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 15
+}
+]
+    },
+{
+      "text": “Samsung Galaxy S8?”,
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 18
+}
+]
+    },
+{
+      "text": “HTC U11?”,
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 8
+}
+]
+    },
+{
+      "text": “best phones under 50000?”,
+      "intent": "",
+      "entities": [
+{
+"entity": "Phones",
+          "startPos": 0,
+          "endPos": 24
+}
+]
+    }
+
