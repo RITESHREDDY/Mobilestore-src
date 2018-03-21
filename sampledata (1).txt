@@ -1130,11 +1130,16 @@
 }
 ]
     },
-{
-      "text": "Under 10000",
-      "intent": "Under",
-      "entities": []
-    },
+{
+
+      "text": "Under 10000",
+
+      "intent": "Under",
+
+      "entities": []
+
+    },
+
  {
       "text": "Honor View 10?",
       "intent": "",
@@ -1147,7 +1152,7 @@
 ]
     },
 {
-      "text": “LG G6?”,
+      "text": Â“LG G6?Â”,
       "intent": "",
       "entities": [
 {
@@ -1167,7 +1172,7 @@
 ]
     },
 {
-      "text": “LG G6?”,
+      "text": Â“LG G6?Â”,
       "intent": "",
       "entities": [
 {
@@ -1178,7 +1183,7 @@
 ]
     },
 {
-      "text": “Samsung Galaxy A8+?”,
+      "text": Â“Samsung Galaxy A8+?Â”,
       "intent": "",
       "entities": [
 {
@@ -1189,7 +1194,7 @@
 ]
     },
 {
-      "text": “LG V20?”,
+      "text": Â“LG V20?Â”,
       "intent": "",
       "entities": [
 {
@@ -1200,7 +1205,7 @@
 ]
     },
 {
-      "text": “Moto X4?”,
+      "text": Â“Moto X4?Â”,
       "intent": "",
       "entities": [
 {
@@ -1211,7 +1216,7 @@
 ]
     },
 {
-      "text": “Moto Z2 Play?”,
+      "text": Â“Moto Z2 Play?Â”,
       "intent": "",
       "entities": [
 {
@@ -1222,7 +1227,7 @@
 ]
     },
 {
-      "text": “Nokia 8?”,
+      "text": Â“Nokia 8?Â”,
       "intent": "",
       "entities": [
 {
@@ -1255,7 +1260,7 @@
 ]
     },
 {
-      "text": “OnePlus 5T?”,
+      "text": Â“OnePlus 5T?Â”,
       "intent": "",
       "entities": [
 {
@@ -1266,7 +1271,7 @@
 ]
     },
 {
-      "text": “Mi Mix 2?”,
+      "text": Â“Mi Mix 2?Â”,
       "intent": "",
       "entities": [
 {
@@ -1277,7 +1282,7 @@
 ]
     },
 {
-      "text": “Moto Z2 Force?”,
+      "text": Â“Moto Z2 Force?Â”,
       "intent": "",
       "entities": [
 {
@@ -1288,7 +1293,7 @@
 ]
     },
 {
-      "text": “Under 40000?”,
+      "text": Â“Under 40000?Â”,
       "intent": "",
       "entities": [
 {
@@ -1299,7 +1304,7 @@
 ]
     },
 {
-      "text": “LG V30 Plus?”,
+      "text": Â“LG V30 Plus?Â”,
       "intent": "",
       "entities": [
 {
@@ -1310,7 +1315,7 @@
 ]
     },
 {
-      "text": “Google Pixel 2?”,
+      "text": Â“Google Pixel 2?Â”,
       "intent": "",
       "entities": [
 {
@@ -1321,7 +1326,7 @@
 ]
     },
 {
-      "text": “Samsung Galaxy S8?”,
+      "text": Â“Samsung Galaxy S8?Â”,
       "intent": "",
       "entities": [
 {
@@ -1332,7 +1337,7 @@
 ]
     },
 {
-      "text": “HTC U11?”,
+      "text": Â“HTC U11?Â”,
       "intent": "",
       "entities": [
 {
@@ -1343,7 +1348,7 @@
 ]
     },
 {
-      "text": “best phones under 50000?”,
+      "text": Â“best phones under 50000?Â”,
       "intent": "",
       "entities": [
 {
@@ -1353,4 +1358,21 @@
 }
 ]
     }
+bot.dialog('/', //basicQnAKnowledgebaseDialog);
+[
+    function (session){
+        var qnaKnowledgebaseId = process.env.QnAKnowledgebaseId;
+	var qnaKnowledgebaseId = '24bebec7-f166-44f2-ac0e-ae5c32a979c2';
+        var qnaSubscriptionKey = process.env.QnASubscriptionKey;
+	var qnaSubscriptionKey = '3fd35a2f0c6243ba9b2ebd554f04f015' ;
+		
+	
+        
+        // QnA Subscription Key and KnowledgeBase Id null verification
+        if((qnaSubscriptionKey == null || qnaSubscriptionKey == '') || (qnaKnowledgebaseId == null || qnaKnowledgebaseId == ''))
+            session.send('Please set QnAKnowledgebaseId and QnASubscriptionKey from App Settings.');
+        else
+            session.replaceDialog('basicQnAMakerDialog');
+    }
+]);
 
