@@ -13,7 +13,7 @@ var entities = new builder.EntityDialog({recognizers: [recognizer]})
     session.send('The phone comes with a 5.70-inch touchscreen display with a resolution of 720 pixels by 1440 pixels at a PPI of 282 pixels per inch. Redmi 5 price in India starts from Rs. 8,999.');
 })
 .matches('Xiaomi Redmi Note 5', (session) => {
-    session.send('Xiaomi’s Redmi Note 5 is now the best smartphone to buy under Rs 10,000. In terms of performance, the device outperforms almost all devices in its price range. It also has very reliable battery life, comes with an all-metal construction, along with a fingerprint sensor at the back. Overall, it offers one of the best performance and battery life among mobile phones below Rs 10,000 ');
+    session.send('Xiaomiâ€™s Redmi Note 5 is now the best smartphone to buy under Rs 10,000. In terms of performance, the device outperforms almost all devices in its price range. It also has very reliable battery life, comes with an all-metal construction, along with a fingerprint sensor at the back. Overall, it offers one of the best performance and battery life among mobile phones below Rs 10,000 ');
 })
 .matches('Lenovo K8 Plus', (session) => {
     session.send('The Lenovo K8 Plus is powered by 2.5GHz octa-core MediaTek Helio P25 processor and it comes with 3GB of RAM. The phone packs 32GB of internal storage that can be expanded up to 128GB via a microSD card. As far as the cameras are concerned, the Lenovo K8 Plus packs a 13-megapixel primary camera on the rear and a 8-megapixel front shooter for selfies.');
@@ -32,7 +32,7 @@ var entities = new builder.EntityDialog({recognizers: [recognizer]})
 ');
 })
 .matches('Xiaomi Mi A1', (session) => {
-    session.send('The Mi A1 is Xiaomi’s attempt at a Android One smartphone and it is a good one at that. The phone packs a Qualcomm Snapdragon 625 SoC, 4GB RAM and 64GB of storage. The device is well built and also offers a good camera for its price.
+    session.send('The Mi A1 is Xiaomiâ€™s attempt at a Android One smartphone and it is a good one at that. The phone packs a Qualcomm Snapdragon 625 SoC, 4GB RAM and 64GB of storage. The device is well built and also offers a good camera for its price.
 ');
 })
 .matches('Honor 9i', (session) => {
@@ -41,18 +41,18 @@ var entities = new builder.EntityDialog({recognizers: [recognizer]})
 })
 .matches('Samsung Galaxy S9/S9+', (session) => {
     session.send('
-Under the hood, the Galaxy S9 and S9+ both pack a Snapdragon 845 processor, the latest and greatest for Android devices, along with 64GB of storage. Both devices are water resistant and offer OLED displays. For the smaller phone, there’s a 5.8-inch display and 6.2 inches on the larger S9+. The smaller phone also offers 4GB of RAM, with 6GB on the larger device.
-The headlining feature on the Galaxy S9 family, though, is the cameras. While the dual-camera array is exclusive to the S9+, both devices offer Samsung’s variable aperture hardware and the improved software. Needless to say, these are some of the best cameras on the market today.
+Under the hood, the Galaxy S9 and S9+ both pack a Snapdragon 845 processor, the latest and greatest for Android devices, along with 64GB of storage. Both devices are water resistant and offer OLED displays. For the smaller phone, thereâ€™s a 5.8-inch display and 6.2 inches on the larger S9+. The smaller phone also offers 4GB of RAM, with 6GB on the larger device.
+The headlining feature on the Galaxy S9 family, though, is the cameras. While the dual-camera array is exclusive to the S9+, both devices offer Samsungâ€™s variable aperture hardware and the improved software. Needless to say, these are some of the best cameras on the market today.
 ');
 })
 .matches('Samsung Galaxy Note 8?', (session) => {
     session.send('
-The Galaxy Note 8 brings, as you’d expect, a ton of specs and features to the table. Up front you’ve got a 6.3-inch AMOLED display at 2960×1440 which is actually the brightest display ever on a smartphone, according to DisplayMate. Around back there’s also Samsung’s new dual-camera system with its optical zoom and portrait mode effects, as well as a fingerprint sensor and heart rate sensor.
+The Galaxy Note 8 brings, as youâ€™d expect, a ton of specs and features to the table. Up front youâ€™ve got a 6.3-inch AMOLED display at 2960Ã—1440 which is actually the brightest display ever on a smartphone, according to DisplayMate. Around back thereâ€™s also Samsungâ€™s new dual-camera system with its optical zoom and portrait mode effects, as well as a fingerprint sensor and heart rate sensor.
 ');
 })
 .matches('BlackBerry Keyone', (session) => {
     session.send('
-This device is a return to the good ol’ days for BlackBerry, including that always-available full physical keyboard right below the display.The KeyOne runs on top of a Snapdragon 625 chipset, 3GB of RAM, 64GB of storage, and has a 4.5-inch display. That sounds small, but it’s due to the fact that the device has that keyboard below. The phone ships with Android 7.1.1 and the latest Android security patch. Further, it offers up BlackBerry’s special security enhancements and a surprisingly good 12MP camera on the rear.
+This device is a return to the good olâ€™ days for BlackBerry, including that always-available full physical keyboard right below the display.The KeyOne runs on top of a Snapdragon 625 chipset, 3GB of RAM, 64GB of storage, and has a 4.5-inch display. That sounds small, but itâ€™s due to the fact that the device has that keyboard below. The phone ships with Android 7.1.1 and the latest Android security patch. Further, it offers up BlackBerryâ€™s special security enhancements and a surprisingly good 12MP camera on the rear.
 ');
 })
 .matches('Apple Iphone X', (session) => {
@@ -61,12 +61,12 @@ This device is a return to the good ol’ days for BlackBerry, including that alwa
 })
 .matches('Apple iPhone 8 Plus', (session) => {
     session.send('
-The newest version of the iPhone is not a big update over its predecessor, but the iPhone 8 Plus has to be here. The iPhone 8 Plus has one of the best cameras on the market and it’s one of the fastest smartphone you can find today.
+The newest version of the iPhone is not a big update over its predecessor, but the iPhone 8 Plus has to be here. The iPhone 8 Plus has one of the best cameras on the market and itâ€™s one of the fastest smartphone you can find today.
 ');
 })
 .matches('Sony Xperia XZ1', (session) => {
     session.send('
-Launched IFA 2018, the Sony Xperia XZ1 is the best Sony has to offer this year. The phone has one of the most understated designs (among flagships) of this year, which may appeal to some. The performance is handled by the Snapdragon 835 and the phone is quite snappy. However, the battery life and the camera aren’t that great. 
+Launched IFA 2018, the Sony Xperia XZ1 is the best Sony has to offer this year. The phone has one of the most understated designs (among flagships) of this year, which may appeal to some. The performance is handled by the Snapdragon 835 and the phone is quite snappy. However, the battery life and the camera arenâ€™t that great. 
 ');
 })
 .matches('Best phones to buy', (session) => {
@@ -300,7 +300,7 @@ We have the following Samsung Phones
 })
 .matches('Samsung Galaxy On Nxt', (session) => {
     session.send('
-The On Nxt is a performance beast, thanks to the powerful 1.6 GHz, octa-core processor that’s aided by an impressive amount of RAM (3 GB). Furthermore, it has 16 GB of internal memory, so you can store loads of photos, videos, apps and more.
+The On Nxt is a performance beast, thanks to the powerful 1.6 GHz, octa-core processor thatâ€™s aided by an impressive amount of RAM (3 GB). Furthermore, it has 16 GB of internal memory, so you can store loads of photos, videos, apps and more.
 ');
 })
 .matches('Xiaomi/Mi', (session) => {
@@ -418,8 +418,8 @@ The iPhone 7 and iPhone 7 Plus are the toughest iPhones Apple has ever made. The
 })
 .matches('OnePlus 5', (session) => {
     session.send('
-With the OnePlus 3, the Chinese ‘start-up’ finally made a phone that was nearly perfect.The OnePlus 5 takes things up another level with a seriously packed spec sheet – and a higher price.
-The headline feature here is an interesting dual-camera setup on the back, but in typical OnePlus fashion there’s a serious amount of power and the option of a frankly ridiculous 8GB of RAM.
+With the OnePlus 3, the Chinese â€˜start-upâ€™ finally made a phone that was nearly perfect.The OnePlus 5 takes things up another level with a seriously packed spec sheet â€“ and a higher price.
+The headline feature here is an interesting dual-camera setup on the back, but in typical OnePlus fashion thereâ€™s a serious amount of power and the option of a frankly ridiculous 8GB of RAM.
 Read more at http://www.trustedreviews.com/reviews/oneplus-5#MilPQrvkzo7Xrv2e.99
 ');
 })
@@ -473,60 +473,79 @@ The Moto G5S offers a high degree of build quality improvement over the Moto G5,
 iPhone SE, the most powerful 4-inch phone ever. The beloved design has been reinvented from the inside out. The A9 is the same advanced chip used in iPhone 6s. The 12-megapixel camera captures incredible photos and 4K videos. And Live Photos bring your images to life.
 ');
 })
-.matches(‘Honor View 10’, (session) => {
-    session.send('If Rs. 30,000 is your maximum budget, the Honor V10 is the best you can get. Huaweiís Kirin chipset is powerful and the phone also has a dual-camera module to boot. The Honor 8 Pro is actually quite close to the OnePlus 5T in most respects, but it will cost you less. Itís certainly the phone to buy in the sub-30k segment.');
+.matches(â€˜Honor View 10â€™, (session) => {
+    session.send('If Rs. 30,000 is your maximum budget, the Honor V10 is the best you can get. HuaweiÃ­s Kirin chipset is powerful and the phone also has a dual-camera module to boot. The Honor 8 Pro is actually quite close to the OnePlus 5T in most respects, but it will cost you less. ItÃ­s certainly the phone to buy in the sub-30k segment.');
 })
-.matches(‘LG G6’, (session) => {
-    session.send(‘While the LG G6 is not the best flagship phone from last year, it is definitely a very good buy for the reduced price. The phone offers decent performance, thanks to the last gen Snapdragon 821 SoC and has one of the best cameras in the category. It is also one of the few phones which come with IP68 certification.’);
+.matches(â€˜LG G6â€™, (session) => {
+    session.send(â€˜While the LG G6 is not the best flagship phone from last year, it is definitely a very good buy for the reduced price. The phone offers decent performance, thanks to the last gen Snapdragon 821 SoC and has one of the best cameras in the category. It is also one of the few phones which come with IP68 certification.â€™);
 })
-.matches(‘Samsung Galaxy A8+’, (session) => {
-    session.send(‘The Samsung Galaxy is not really the fastest phone around, but it evens things out offering a much premier design and is the only phone under 30K to be IP68 certified. This means, it can withstand the rain and the beach. It also has a really good battery life, but the camera quality is just good enough.’);
+.matches(â€˜Samsung Galaxy A8+â€™, (session) => {
+    session.send(â€˜The Samsung Galaxy is not really the fastest phone around, but it evens things out offering a much premier design and is the only phone under 30K to be IP68 certified. This means, it can withstand the rain and the beach. It also has a really good battery life, but the camera quality is just good enough.â€™);
 })
-.matches(‘LG V20’, (session) => {
-    session.send(‘The LG V20 may not be as good looking as the LG G6, but the phone still offers a really good performance. It is one of the last flagship phones to offers a removable back along with a decent dual camera at the back. It also offers one of the best audio performance we have seen in a phone at its price.’);
+.matches(â€˜LG V20â€™, (session) => {
+    session.send(â€˜The LG V20 may not be as good looking as the LG G6, but the phone still offers a really good performance. It is one of the last flagship phones to offers a removable back along with a decent dual camera at the back. It also offers one of the best audio performance we have seen in a phone at its price.â€™);
 })
-.matches(‘Moto X4’, (session) => {
-    session.send(‘The Moto X4 is currently the best smartphone Motorola offers in India. It is one of the most compact devices available today and offers a decent performance in a well-designed package. While the battery life is good enough, it does not have a very good camera for the price.’);
+.matches(â€˜Moto X4â€™, (session) => {
+    session.send(â€˜The Moto X4 is currently the best smartphone Motorola offers in India. It is one of the most compact devices available today and offers a decent performance in a well-designed package. While the battery life is good enough, it does not have a very good camera for the price.â€™);
 })
-.matches(‘Moto Z2 Play’, (session) => {
-    session.send(‘Not a lot has changed in terms of performance and other aspects, but the newest modular smartphone from Motorola has a better camera than its predecessor. It has the dual-pixel camera from the Moto G5 Plus, and regular user experience is as smooth as it was in older Motorola devices. The Moto Z2 Play is a phone worth buying for sure.’);
+.matches(â€˜Moto Z2 Playâ€™, (session) => {
+    session.send(â€˜Not a lot has changed in terms of performance and other aspects, but the newest modular smartphone from Motorola has a better camera than its predecessor. It has the dual-pixel camera from the Moto G5 Plus, and regular user experience is as smooth as it was in older Motorola devices. The Moto Z2 Play is a phone worth buying for sure.â€™);
 })
-.matches(‘Nokia 8’, (session) => {
-    session.send(‘Nokia 8 comes with a 5.3 inch display & a resolution of 1440 x 2560 pixels. The Smartphone is powered by 2.5 GHz Octa core Qualcomm Snapdragon 835 processor and runs on 4 GB of RAM.’);
+.matches(â€˜Nokia 8â€™, (session) => {
+    session.send(â€˜Nokia 8 comes with a 5.3 inch display & a resolution of 1440 x 2560 pixels. The Smartphone is powered by 2.5 GHz Octa core Qualcomm Snapdragon 835 processor and runs on 4 GB of RAM.â€™);
 })
-.matches(‘best phones under 30000’, (session) => {
-    session.send(‘Honor View 10, LG G6, Samsung Galaxy A8+,Moto Z2 Play are some of the best under 30000.We recommend you to check the One Plus 5T if spending a couple of thousand more isnt a problem./n/nFor more good phones under 30000 check https://www.digit.in/top-products/best-phones-under-rs-30-000-in-india-49.html’);
+.matches(â€˜best phones under 30000â€™, (session) => {
+    session.send(â€˜Honor View 10, LG G6, Samsung Galaxy A8+,Moto Z2 Play are some of the best under 30000.We recommend you to check the One Plus 5T if spending a couple of thousand more isnt a problem./n/nFor more good phones under 30000 check https://www.digit.in/top-products/best-phones-under-rs-30-000-in-india-49.htmlâ€™);
 })
-.matches(‘OnePlus 5T’, (session) => {
-    session.send('The phone needs no introduction and sells like hotcakes. Itís an upgrade over the OnePlus 5 and now offers a better design and better cameras. Not overlooking the class-leading RAM, internal storage and the processor.');
+.matches(â€˜OnePlus 5Tâ€™, (session) => {
+    session.send('The phone needs no introduction and sells like hotcakes. ItÃ­s an upgrade over the OnePlus 5 and now offers a better design and better cameras. Not overlooking the class-leading RAM, internal storage and the processor.');
 })
-.matches(‘Mi Mix 2’, (session) => {
-    session.send('Mi Mix 2 seems like an underdog. Itís one of the most good looking phones available in the market, has specs similar to the OnePlus, but doesnít get enough credit. It comes with top of the line processor, has rather too much RAM and storage and a near bezel-less design.');
+.matches(â€˜Mi Mix 2â€™, (session) => {
+    session.send('Mi Mix 2 seems like an underdog. ItÃ­s one of the most good looking phones available in the market, has specs similar to the OnePlus, but doesnÃ­t get enough credit. It comes with top of the line processor, has rather too much RAM and storage and a near bezel-less design.');
 })
-.matches(‘Moto Z2 Force’, (session) => {
-    session.send('Another reliable phone from Motorolaís stables thatís been packed with all the bells and whistles this budget demands. First things that come to mind are a QHD display, 6GB RAM, dual cameras and a shatterproof screen.');
+.matches(â€˜Moto Z2 Forceâ€™, (session) => {
+    session.send('Another reliable phone from MotorolaÃ­s stables thatÃ­s been packed with all the bells and whistles this budget demands. First things that come to mind are a QHD display, 6GB RAM, dual cameras and a shatterproof screen.');
 })
-.matches(‘Under 40000’, (session) => {
+.matches(â€˜Under 40000â€™, (session) => {
     session.send('The Oneplus 5t is our pick of the lot but the Mi Mix 2 and Moto Z2 Force are close competitors./n/n For more intersting phones check out https://bestgadgetry.com/5-best-phones-under-rs-40000-india/');
 })
-.matches(‘LG V30 Plus’, (session) => {
+.matches(â€˜LG V30 Plusâ€™, (session) => {
     session.send('This phone runs android of 7.1.2 nougat, and provides excellent features. The main feature of this phone is its top end hardware and focus on design. With 4GB RAM, best camera features, octa core processor, 128GB storage, octa core processor, this phone has everything which you are expecting.
 Read more at: https://www.gizbot.com/new-mobiles/lg-v30-plus-6338/');
 })
-.matches(‘Google Pixel 2’, (session) => {
-    session.send(‘It features- Android OS, v8.0(oreo), 4GB RAM, octa core processor, 12MP rear and 8MP front camera and 128GB storage. The phone includes stellar camera and provides the faster charging process. The other promising key features are- google lens, AR stickers and assistant squeeze.
-Read more at: https://www.gizbot.com/new-mobiles/google-pixel-2-64gb-5465/’);
+.matches(â€˜Google Pixel 2â€™, (session) => {
+    session.send(â€˜It features- Android OS, v8.0(oreo), 4GB RAM, octa core processor, 12MP rear and 8MP front camera and 128GB storage. The phone includes stellar camera and provides the faster charging process. The other promising key features are- google lens, AR stickers and assistant squeeze.
+Read more at: https://www.gizbot.com/new-mobiles/google-pixel-2-64gb-5465/â€™);
 })
-.matches(‘Samsung Galaxy S8’, (session) => {
-    session.send(‘Samsung Galaxy S8 runs Android,7.0 Nougat and features a 5.8 inches Super AMOLED (Corning Gorilla Glass 5) 1440 x 2960 pixels display and a Octa Core (4x2.3 GHz & 4x1.7 GHz) Exynos 8895 Octa processor paired with 4GB RAM and 64GB native storage capacity. The Samsung Galaxy S8 boasts of a 12MP main snapper at its rear and an 8MP front-facing selfie shooter. There is a Non-removable Li-Ion 3000 mAh battery powering the phone with support for USB v3.1, Type-C 1.0 reversible connector.
-Read more at: https://www.gizbot.com/new-mobiles/samsung-galaxy-s8-4645/’);
+.matches(â€˜Samsung Galaxy S8â€™, (session) => {
+    session.send(â€˜Samsung Galaxy S8 runs Android,7.0 Nougat and features a 5.8 inches Super AMOLED (Corning Gorilla Glass 5) 1440 x 2960 pixels display and a Octa Core (4x2.3 GHz & 4x1.7 GHz) Exynos 8895 Octa processor paired with 4GB RAM and 64GB native storage capacity. The Samsung Galaxy S8 boasts of a 12MP main snapper at its rear and an 8MP front-facing selfie shooter. There is a Non-removable Li-Ion 3000 mAh battery powering the phone with support for USB v3.1, Type-C 1.0 reversible connector.
+Read more at: https://www.gizbot.com/new-mobiles/samsung-galaxy-s8-4645/â€™);
 })
-.matches(‘HTC U11’, (session) => {
-    session.send(‘It features- Android OS, v7.1(nougat), 6GB RAM, octa core processor, 12MP rear and 16MP front camera and 128GB storage. It comes with ë Alexa Hot Word Support ë, which means you can make any kind of interaction with it. It also features 4 mics on board.
-Read more at: https://www.gizbot.com/new-mobiles/htc-u11-5606/’);
+.matches(â€˜HTC U11â€™, (session) => {
+    session.send(â€˜It features- Android OS, v7.1(nougat), 6GB RAM, octa core processor, 12MP rear and 16MP front camera and 128GB storage. It comes with Ã« Alexa Hot Word Support Ã«, which means you can make any kind of interaction with it. It also features 4 mics on board.
+Read more at: https://www.gizbot.com/new-mobiles/htc-u11-5606/â€™);
 })
-.matches(‘best phones under 50000’, (session) => {
-    session.send(‘LG V30 Plus,Google Pixel 2,Samsung Galaxy S8,HTC U11 are some good phones in this range
-Read more at: https://www.gizbot.com/best-phones-under-50000/’);
+.matches(â€˜best phones under 50000â€™, (session) => {
+    session.send(â€˜LG V30 Plus,Google Pixel 2,Samsung Galaxy S8,HTC U11 are some good phones in this range
+Read more at: https://www.gizbot.com/best-phones-under-50000/â€™);
 })
+
+bot.dialog('/', //basicQnAKnowledgebaseDialog);
+[
+    function (session){
+        var qnaKnowledgebaseId = process.env.QnAKnowledgebaseId;
+	var qnaKnowledgebaseId = '24bebec7-f166-44f2-ac0e-ae5c32a979c2';
+        var qnaSubscriptionKey = process.env.QnASubscriptionKey;
+	var qnaSubscriptionKey = '3fd35a2f0c6243ba9b2ebd554f04f015' ;
+		
+	
+        
+        // QnA Subscription Key and KnowledgeBase Id null verification
+        if((qnaSubscriptionKey == null || qnaSubscriptionKey == '') || (qnaKnowledgebaseId == null || qnaKnowledgebaseId == ''))
+            session.send('Please set QnAKnowledgebaseId and QnASubscriptionKey from App Settings.');
+        else
+            session.replaceDialog('basicQnAMakerDialog');
+    }
+]);
+
 
